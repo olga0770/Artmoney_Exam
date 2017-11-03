@@ -60,7 +60,7 @@
                     <a class="nav-link" href="#wp">Implementering</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SoMe</a>
+                    <a class="nav-link" href="#some">SoMe</a>
                 </li>
 
             </ul>
@@ -508,8 +508,8 @@ Your borwser does not support the video tag.
 
 <section id="test">
 <div class="container">
-<div class="row justify-content-around">
-<div class="col-sm">
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-7">
 <h1>TEST</h1><br>
 <h3>Tænke-højt-test</h3><br>
 
@@ -583,19 +583,18 @@ Your borwser does not support the video tag.
 </div>
 
 <div class="container">
-<div class="row justify-content-around">
-<div class="col-sm">
-<img src="img/bootstrap.png" alt="exam"></div><br><br>
-<div class="col-sm">
-<p>Vi har brugt frameworket Bootstrap v4.0 grid til at arbejde mobile-first i dette projekt. På billedet herover ses hvordan vi har benyttet Bootstrap v4.0 til at opbygge vores index.php side. Vores index.php er en statisk side. Downloadet fra <a href="http://getbootstrap.com">http://getbootstrap.com.</a></p><br>
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-7">
+<p>Vi har brugt frameworket Bootstrap v4.0 grid til at arbejde mobile-first i dette projekt. I vores eksempel ses hvordan vi har benyttet Bootstrap v4.0 til at opbygge vores index.html side. Vores index.html er en statisk side. Frameworket er downloadet fra <a href="http://getbootstrap.com">http://getbootstrap.com.</a></p>
+<img src="img/bootstrap.png" alt="exam"><br><br>
 </div>
 </div>
 </div><br><br>
 
 
 <div class="container">
-<div class="row justify-content-around">
-<div class="col-sm">
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-7">
 <h3>Plugins på websiden</h3><br>
 <h4>1. Parallax</h4>
 <h4>2. Popcorn / Video Call to action</h4>
@@ -608,8 +607,8 @@ Your borwser does not support the video tag.
 
 
 <div class="container">
-<h3>SVG animation</h3><br>
-<h4>Kunstner evaluering</h4><br>
+<h3>SVG animationer</h3><br>
+<h4>1. Kunstner evaluering</h4><br>
 <div class="row justify-content-around">
 <div class="col-sm">
 <img src="img/Artist_Evaluation.jpg" alt="exam"><br><br>
@@ -633,46 +632,20 @@ Your borwser does not support the video tag.
 
 
 <div class="container">
-<div class="row justify-content-around">
-<div class="col-sm">
-<h4>Bruger roller infografik</h4><br>
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-9">
+<h4>2. 'Brugernes roller' infografik</h4><br>
 <p>
 Infografikken består af 3 ikoner som brugeren kan interagere med. Når man trykker på ikonen, kommer der emne-forklaring.
 Strukturen består af HTML, JSON, SVG  og JavaScript. Html’en indeholder 2 elementer, der er vigtige for interaktionen:<br><br>
 1. Det første html-element er div id=”icon”. Det indeholder SVG-filen med de forskellige ikoner. SVG-filen indlæses i JavaScript koden.<br><br>
-2. Det andet html-element er div class=”info-box”. Det viser den emne-forklaring som passer til den valgte ikon. Emne-forklaringen kommer fra JSON-filen, når man trykker på ikonen (onclick() event).<br><br>
+2. Det andet html-element er div class=”info-box”. Det viser den emne-forklaring som passer til den valgte ikon. Emne-forklaringen kommer fra JSON-filen, når man trykker på ikonen.<br><br>
 Når der klikkes på et af ikonerne, kaldes funktionen vis_info.
 Her bestemmes ID for det valgte billede, og funktionen vis_tekst  kaldes på hvert element i listen af tekster.
 </p><br>
 
 <img src="img/users.png" alt="exam"><br><br>
 </div>
-</div>
-</div><br><br>
-
-
-
-<div class="container">
-<div class="row justify-content-around">
-
-<div class="col-sm">
-<h5>HTML</h5>
-<img src="img/user_html.png" alt="exam"><br><br>
-
-<h5>SVG</h5>
-<img src="img/user_svg.png" alt="exam"><br><br>
-</div>
-
-<div class="col-sm">
-<h5>JavaScript</h5>
-<img src="img/user_js.png" alt="exam"><br><br>
-</div>
-
-<div class="col-sm">
-<h5>JSON</h5>
-<img src="img/user_json.png" alt="exam"><br><br>
-</div>
-
 </div>
 </div><br><br>
 
@@ -689,7 +662,7 @@ Her bestemmes ID for det valgte billede, og funktionen vis_tekst  kaldes på hve
 
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-sm-10 col-md-7 col-lg-8 col-xl-9">
+<div class="col-xs-12 col-sm-10 col-md-9">
 <h1>IMPLEMENTERING</h1><br>
 <h3>HTML frontend, WP backend</h3><br>
 <img src="img/Frontend_Backend.jpg" alt="exam">
@@ -699,12 +672,12 @@ Her bestemmes ID for det valgte billede, og funktionen vis_tekst  kaldes på hve
 
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-sm-10 col-md-7 col-lg-8 col-xl-9">
+<div class="col-xs-12 col-sm-10 col-md-9">
 <h4>WP Plugins</h4><br>
 <p>Vi benytter CMS’et Wordpress til denne eksamensopgave.
-Artmoney galleri kan ikke rummes i almindelige indlæg: der mangler felter.
-Løsning: Custom post med Custom Fields.
-Plugins: Custom Post Type UI og Advanced Custom Fields
+Artmoney galleri kan ikke rummes i almindelige indlæg: der mangler felter.<br>
+Løsning: Custom post med Custom Fields.<br>
+Plugins: Custom Post Type UI og Advanced Custom Fields.
 </p>
 <img src="img/WP_plugins.png" alt="exam"></div><br><br>
 </div>
@@ -715,7 +688,7 @@ Plugins: Custom Post Type UI og Advanced Custom Fields
 <div class="row">
 <div class="col-xs-12 col-sm-10 col-md-7">
 <h4>JSON og dynamiske løsninger</h4><br>
-<p>For at vise Advanced Custom Fields i JSON-fil installerede vi ACF to REST API plugin. I Chrome installerede vi også en extension, der formaterer JSON, så den ser pæn ud - JSON Formatter 0.6.0.</p>
+<p>For at vise Advanced Custom Fields i JSON-fil installerede vi ACF to REST API plugin. I Chrome installerede vi også en extension, der formaterer JSON - JSON Formatter 0.6.0 - så den ser pæn ud.</p>
 <a href="http://www.deleklubben.dk/artmoney/wordpress/wp-json/wp/v2/pictures"><img src="img/wp_json.png" alt="exam"></a>
 <img src="img/wp_json2.png" alt="exam">
 </div>
@@ -728,19 +701,94 @@ Plugins: Custom Post Type UI og Advanced Custom Fields
 <div class="row">
 <div class="col-xs-12 col-sm-10 col-md-7">
 <h4>Template</h4>
-<p>Statisk indhold på en HTML-side omdannes til Template.</p>
+<p>Statisk indhold på en HTML-side omdannes til templaten.</p>
 <img src="img/template.jpg" alt="exam"><br><br><br>
 <h4>JavaScript</h4>
-<p>JS henter Json ind i template og outputter.</p>
+<p>JS henter Json ind i templaten og outputter.</p>
 <img src="img/js.jpg" alt="exam"><br><br>
 </div>
 </div>
-</div>
+</div><br><br>
 
+
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-11">
+<h3>Formularer</h3>
+<p>Vi fik 'Login', 'Join Us', 'Send Message' og 'Artmoney Newsletter' formularerne til at fungere. Det betyder, at brugeren kan interagere med WP backend udenom WP brugerfladen via en uafhængig HTML-side.</p><br>
+<h4>1. Kode-eksempel fra registrerings formular 'Join Us'</h4><br>
+<img src="img/join_us_form2.png" alt="exam"><br><br><br>
+
+<h4>2. Kontaktformular 'Send Message'</h4><br>
+<p>'Send Message' er en kontaktform, hvor brugerens input på formularen sendes videre til en modtager (kunstner eller boutique). Når mailen er sendt, får brugeren en besked 'Thank you - you get the answer as soon as possible!' Kontaktformular 'Send Message' ligger på den samme side som kunstnerens single-view. Derfor bruges JS-kode for at hente kunstnerens emailadresse.
+</p>
+<img src="img/contact_form.png" alt="exam"><br><br><br>
+
+<h4>3. 'Artmoney Newsletter' formular</h4><br>
+<p>For at få nyhedsbrevet til at fungere brugte vi WP-plugin Newsletter Version 5.1.1.
+</p>
+<img src="img/newsletter1.png" alt="exam"><br><br><br>
+
+</div>
+</div>
+</div><br><br>
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-7">
+<h3>PHP</h3><br>
+<h4>1. Don't Repeate Yourself!</h4>
+<p>Vi har udvilket vores webside efter DRY princippet. Det står for Don’t Repeat Yourself. Ved at gøre det på den måde kan vi dele de sider vi laver op i fragmenter. I vores eksempel ses hvordan vi henter vores header og footer ind ved hjælp af PHP. På den måde får vi mulighed for at redigere eksempelvis footeren på alle sider ved kun at åbne en fil - footer.php i dette tilfælde.</p>
+<img src="img/php.png" alt="exam"><br><br><br>
+
+<h4>2. 'Active' items på menuet</h4>
+<img src="img/nav.png" alt="exam"><br><br><br>
+</div>
+</div>
+</div><br><br>
 
 </section>
 
 
+
+
+
+
+
+<section id="some">
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-9">
+<h1>SOCIAL MEDIA</h1><br>
+<h3>Facebook - like-og-del-bar muligheder og kommentarer via FB Comments plugin</h3><br>
+<p>På vores 'Artist' (single view) og 'Campaign' (statisk) sider lavede vi FB like-og-del og kommentar funktionaliteter.</p>
+<img src="img/FB_share.png" alt="exam"><br><br><br>
+</div>
+</div>
+</div><br><br><br><br>
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-9">
+<h3>Instagram implementering</h3><br>
+<p>Vi brugte plugin INSTUSH <a href="http://www.instush.com/">http://www.instush.com/</a> for at lave Instagram galleri på vores 'News' side.</p>
+<img src="img/instagram.png" alt="exam"><br><br><br>
+</div>
+</div>
+</div><br><br><br><br>
+
+
+
+
+</section>
 
 
 
